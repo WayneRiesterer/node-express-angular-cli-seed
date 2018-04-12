@@ -7,6 +7,7 @@ Seed project that integrates the Angular CLI with NodeJS/Express.
 This project was put together using `yarn` rather than `npm`.
 
 Run `npm install -g yarn` to install yarn
+
 Run `yarn` or `yarn install` to install the dependencies
 
 ## Serving the application
