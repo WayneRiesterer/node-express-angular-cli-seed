@@ -16,11 +16,11 @@ Two sections below outline how to run this project for development and productio
 
 It will take some time for the Angular application to build, so if it doesn't show up in the browser, wait for a while and then refresh it.
 
-## Development server
+### Development server
 
 Run `yarn serve-dev` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
-## Production server
+### Production server
 
 Run `yarn serve-prod`.
 
