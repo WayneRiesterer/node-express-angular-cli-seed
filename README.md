@@ -1,10 +1,32 @@
-# WrMeanSeed
+# Express/Angular CLI Seed
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Seed project that integrates the Angular CLI with NodeJS/Express.
+
+## Yarn
+
+This project was put together using yarn rather than npm.
+
+Run `npm install -g yarn`
+
+## Serving the application
+
+Two sections below outline how to run this project for development and production.
+
+It will take some time for the Angular application to build, so if it doesn't show up in the browser, wait for a while and then refresh it.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `yarn serve-dev` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
+
+## Production server
+
+Run `yarn serve-prod`.
+
+This will build the Angular application using `ng build --prod` enabling minification and Ahead-Of-Time (AOT) compilation. It will then serve up on `localhost:3000`
+
+## API
+
+The api is accessed using the path `localhost:3000/api`. I've include a stub just to show that it works.
 
 ## Code scaffolding
 

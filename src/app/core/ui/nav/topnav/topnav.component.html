@@ -1,0 +1,7 @@
+<section id="topnav">
+  <ul>
+    <li *ngFor="let link of links">
+      <a [routerLink]="link.path">{{ link.name }}</a>
+    </li>
+  </ul>
+</section>
