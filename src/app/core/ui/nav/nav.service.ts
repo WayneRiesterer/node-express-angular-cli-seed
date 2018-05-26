@@ -1,5 +1,10 @@
+import { Injectable } from '@angular/core';
+
 import { Link } from './models/link.model';
 
+@Injectable({
+  providedIn: 'root'
+})
 export class NavService {
   private _links: Array<Link> = [
     new Link('Home', '/'),

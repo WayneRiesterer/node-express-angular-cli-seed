@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 
+import { ErrorComponent } from './core/pages/error/error.component';
+
 const APP_ROUTES: Routes = [
-  { path: '', loadChildren: 'app/core/pages/pages.module#PagesModule' },
-  { path: '**', redirectTo: 'error' }
+  { path: '', loadChildren: './site/site.module#SiteModule' },
+  { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({

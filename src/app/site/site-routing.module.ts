@@ -4,17 +4,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { ErrorComponent } from './error/error.component';
 
-const PAGES_ROUTES: Routes = [
+const SITE_ROUTES: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'error', component: ErrorComponent }
+  { path: 'contact', component: ContactComponent }
 ];
 
 @NgModule({
-  imports: [ RouterModule.forChild(PAGES_ROUTES) ],
-  exports: [ RouterModule ]
+  imports: [ RouterModule.forChild(SITE_ROUTES) ]
 })
-export class PagesRoutingModule {}
+export class SiteRoutingModule {}
