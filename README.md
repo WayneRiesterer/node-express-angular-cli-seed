@@ -1,4 +1,4 @@
-# Express/Angular CLI Seed
+# Express/Angular 6 CLI Seed
 
 Seed project that integrates the Angular CLI with NodeJS/Express.
 
